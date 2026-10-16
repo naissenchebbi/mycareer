@@ -1,0 +1,28 @@
+# Python
+venv/
+venv_eval/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Base de données (persistée via volume)
+chroma_db/
+
+# Environnement
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+tests/
+
+# Logs
+*.log
